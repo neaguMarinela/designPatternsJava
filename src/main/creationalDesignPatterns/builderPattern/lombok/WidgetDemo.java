@@ -7,6 +7,6 @@ public class WidgetDemo {
                 .id(1)
                 .build();
 
-        System.out.println(testWidget.getId());
+        System.out.println(testWidget);
     }
 }
