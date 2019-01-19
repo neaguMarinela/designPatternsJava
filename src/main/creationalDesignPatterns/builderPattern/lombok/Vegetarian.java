@@ -1,17 +1,13 @@
 package main.creationalDesignPatterns.builderPattern.lombok;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NonNull;
+import lombok.ToString;
 
-@Getter
-@Setter
-//@Data
+@Data
 @Builder
 @ToString
-public class Widget {
+public class Vegetarian {
     private final String name;
-    private final int id;
 }
